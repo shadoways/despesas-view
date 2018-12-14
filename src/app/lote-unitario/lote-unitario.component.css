@@ -1,0 +1,19 @@
+html {
+    overflow-y: hidden;    
+  }
+
+.marginTop-3per{
+    margin-top: 3% !important;
+}
+
+.marginTop-6per{
+    margin-top: 6% !important;
+}
+
+.marginTop-1per{
+    margin-top: 1% !important;
+}
+
+.marginLeft-1per{
+    margin-left: 1% !important;
+}

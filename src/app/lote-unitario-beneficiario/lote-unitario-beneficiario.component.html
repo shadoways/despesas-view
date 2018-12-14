@@ -1,0 +1,108 @@
+<div class="container-fluid">
+    <h3>Dados do beneficiário</h3>
+    <div class="col-md-12 txtBox">
+        <form role="form" id="formID">
+            <div class="row">
+                <div class="form-group col-md-2">
+                    <label for="data">Tipo de beneficiário<small class="text-danger">*</small></label>
+                    <select class="form-control input-sm">
+                    </select>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="nome">Nome <small class="text-danger">*</small></label>
+                    <input class="form-control input-sm validate[required]" type="text" name="nome" id="nome">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="data">CPF/CNPJ<small class="text-danger">*</small></label>
+                    <select class="form-control input-sm">
+                        <option>Selecione</option>
+                    </select>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="form-group col-md-2">
+                    <label for="data">Banco<small class="text-danger">*</small></label>
+                    <select class="form-control input-sm">
+                        <option>Selecione</option>
+    
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="data">Forma de pagamento<small class="text-danger">*</small></label>
+                    <select class="form-control input-sm">
+                        <option>Selecione</option>
+    
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="agencia">Agência <small class="text-danger">*</small></label>
+                    <input class="form-control input-sm validate[required]" type="text" name="agencia" id="agencia">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="conta">Conta <small class="text-danger">*</small></label>
+                    <input class="form-control input-sm validate[required]" type="text" name="conta" id="conta">
+                </div>
+                <div class="form-group col-md-2 mt-md-5">
+                    <a href="#" class="btn btn-primary marginTop-6per">Contas</a>
+                </div>
+            </div>
+        
+            <div class="row">    
+                <div class="form-group col-md-10">
+                    <label for="codigoBarra">Código de barras <small class="text-danger">*</small></label>
+                    <input class="form-control input-sm validate[required]" type="text" name="codigoBarra" id="codigoBarra">
+                </div>
+            </div>
+            
+            <div class="row">
+            <div class="form-group col-md-10">
+                <label for="observacao">Observação</label>
+                <textarea  class="form-control" type="text" form="formID" name="observacao"></textarea>
+            </div>
+            </div>       
+    
+            <div class="row">    
+                <div class="form-group col-md-10">
+                    <label for="historico">Histórico</label>
+                    <input class="form-control input-sm" type="text" name="historico" id="historico">
+                </div>
+            </div>
+    
+            <hr class="marginTop-1per">
+    
+            <div class="row">    
+                <div class="form-group col-md-3">
+                    <div class="radio">
+                        <label><input type="radio" name="optBeneficiario">Beneficiário é final e conhecido</label>
+                    </div>
+                </div>
+    
+                <div class="form-group col-md-3">
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Beneficiário não é final, porém conhecido</label>
+                </div>
+                </div>
+                <div class="form-group col-md-3">
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Beneficiário não é final, nem conhecido</label>
+                </div>                                            
+                </div>
+            </div>
+    
+            <hr>
+    
+            <div class="row marginTop-1per">    
+                <div class="form-group col-md-2">
+                    <label for="data">Emitir pagamento</label>
+                    <select class="form-control input-sm">
+                        <option>Selecione</option>
+                    </select>
+                </div>
+            </div>
+        </form>	
+    </div>
+    </div>
+    <hr>

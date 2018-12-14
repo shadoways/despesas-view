@@ -1,0 +1,68 @@
+<div class="container-fluid">
+    <h3>Dados do imposto</h3>
+    <div class="col-md-12 txtBox">
+        <form role="form" id="formID">
+            <div class="row">
+                <div class="form-group col-md-2">
+                    <label for="data">Tipo documento</label>
+                    <select class="form-control input-sm">
+                        <option>Selecione</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="nrNota">Nr. nota <small class="text-danger">*</small></label>
+                    <input class="form-control input-sm validate[required]" type="text" name="nrNota" id="nrNota">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="serie">Série <small class="text-danger">*</small></label>
+                    <input class="form-control input-sm validate[required]" type="text" name="serie" id="serie">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="subSerie">Sub série <small class="text-danger">*</small></label>
+                    <input type="text" id="data" class="form-control input-sm validate[required]" type="text" name="subSerie" id="subSerie"> 
+                </div>
+                
+                <div class="form-group col-md-2">
+                    <label for="aliquota">Alíquota <small class="text-danger">*</small></label>
+                    <input class="form-control input-sm validate[required]" type="text" name="aliquota" id="aliquota">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="form-group col-md-2">
+                    <label for="data">Cód. serviço</label>
+                    <select class="form-control input-sm">
+                        <option>Selecione</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="dtEmissao">Dt. Emissão <small class="text-danger">*</small></label>
+                    <input class="form-control input-sm validate[required]" type="text" name="dtEmissao" id="dtEmissao">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="dtRecebimento">Dt. Recebimento <small class="text-danger">*</small></label>
+                    <input class="form-control input-sm validate[required] " type="text" name="dtRecebimento" id="dtRecebimento">
+                </div>
+    
+                <div class="form-group col-md-4">
+                    <label for="data">Modelo</label>
+                    <select class="form-control input-sm">
+                        <option>Selecione</option>
+                    </select>
+                </div>                
+            </div>
+    
+            <hr class="marginTop-1per">
+    
+            <div class="row marginTop-1per">    
+                <div class="form-group col-md-8">
+                    <label class="checkbox-inline"><input type="checkbox" value="">Reaproveitar imposto</label>
+                </div>
+                <div class="form-group col-md-2">
+                    <p><strong>Valor base: </strong><span></span></p>
+                </div>
+            </div>              
+        </form>	
+    </div>      
+    </div>
+    <hr> 
